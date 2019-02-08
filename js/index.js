@@ -15,7 +15,7 @@ document.querySelector('.clear')
 .addEventListener('click', function(){
     display.value = display.value.substring(0, display.value.length - 1);
 })
-document.qerySelector('.clear-all')
+document.querySelector('.clear-all')
 .addEventListener('click', function(){
     display.value = "";
 })
